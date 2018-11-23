@@ -2,10 +2,12 @@
 
 ##### RUN
 
+```
 $ npm install
 $ npm start // node ./bin/www
 $ npm run dev // pm2 start ecosystem.config.js
 $ npm run production // pm2 start ecosystem.config.js --env production
+```
 
 ##### middleware
 
@@ -62,7 +64,7 @@ npm i --save csurf
 https://www.npmjs.com/package/csurf
 ```
 
-### CHEAT SHEET SHEET
+### CHEAT SHEET NODE
 ```
 const publicPath = path.resolve(__dirname, "public"); // express.static
 app.use(express.static(publicPath));
