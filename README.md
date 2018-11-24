@@ -1,5 +1,11 @@
 # CHEAT SHEET NODE EXPRESS
 
+```
+git repository by express-generator
+$ npm install -g express-generator
+$ express cheat-sheet-node-express && cd cheat-sheet-node-express
+```
+
 ### RUN
 
 ```
